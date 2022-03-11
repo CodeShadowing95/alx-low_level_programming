@@ -11,7 +11,7 @@ int i = 0;
 
 while (i < 10)
 {
-char c = (char)((i % 10) + '0');
+int c = (int)((i % 10) + '0');
 putchar(c);
 i++;
 }
