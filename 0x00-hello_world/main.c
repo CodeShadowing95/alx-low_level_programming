@@ -7,5 +7,5 @@
  */
 int main(void)
 {
-puts("\"Cool");
+puts("\"Cool\n");
 }
