@@ -15,14 +15,14 @@ while (i < 99)
 {
 while (j <= 99)
 {
-if (((i / 10) <= (j / 10)) && (i % 10 < (j % 10)))
+if (j > i)
 {
 putchar((i / 10) + '0');
 putchar((i % 10) + '0');
 putchar(' ');
 putchar((j / 10) + '0');
 putchar((j % 10) + '0');
-if (i < 98)
+if (i != 98)
 {
 putchar(',');
 putchar(' ');
