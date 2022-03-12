@@ -10,3 +10,4 @@
 9- Program that prints all possible combinations of single-digit numbers</br>
 10- Program that prints all possible different combinations of two digits</br>
 11- Program that prints all possible different combinations of three digits</br>
+12- Program that prints all possible combinations of two two-digit numbers
