@@ -18,7 +18,7 @@ while (b < 10)
 {
 if (b != 9)
 {
-printf("%d, ", a * b);
+printf("%d,\t", a * b);
 }
 else
 {
