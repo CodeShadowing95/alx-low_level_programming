@@ -9,7 +9,7 @@
  */
 int _islower(int c)
 {
-if (c == tolower(c))
+if (islower(c))
 {
 return (1);
 }
