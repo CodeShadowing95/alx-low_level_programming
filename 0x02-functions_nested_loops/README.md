@@ -1,1 +1,3 @@
 0- Program that prints _putchar_ followed by a new line</br>
+1- Program that displays the alphabet</br>
+2- Program that displays the alphabet 10 times</br>
