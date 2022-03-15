@@ -13,13 +13,12 @@ void print_times_table(int n)
 int i = 0;
 int j;
 
-if (n >= 0 && n < 15)
-{
 if (n == 0)
 {
-printf("%d", i * j);
+printf("%d", n);
 }
-else
+
+if (n >= 0 && n < 15)
 {
 while (i <= n)
 {
@@ -45,7 +44,6 @@ j++;
 }
 printf("\n");
 i++;
-}
 }
 }
 
