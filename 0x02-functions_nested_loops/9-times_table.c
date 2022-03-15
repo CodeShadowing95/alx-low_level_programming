@@ -16,13 +16,20 @@ while (a < 10)
 b = 0;
 while (b < 10)
 {
-if (b != 9)
+if (b == 0)
 {
-printf("%2d, ", a * b);
+printf("%d,", a * b);
 }
 else
 {
-printf("%2d", a * b);
+if (b != 9)
+{
+printf("%3d,", a * b);
+}
+else
+{
+printf("%3d", a * b);
+}
 }
 b++;
 }
