@@ -15,6 +15,12 @@ int j;
 
 if (n >= 0 && n < 15)
 {
+if (n == 0)
+{
+printf("%d", i * j);
+}
+else
+{
 while (i <= n)
 {
 j = 0;
@@ -39,6 +45,7 @@ j++;
 }
 printf("\n");
 i++;
+}
 }
 }
 
