@@ -7,13 +7,7 @@
  */
 int main(void)
 {
-print_times_table(3);
-_putchar('\n');
-print_times_table(5);
-_putchar('\n');
-print_times_table(98);
-_putchar('\n');
-print_times_table(12);
+multiples_5_3();
 return (0);
 }
 
