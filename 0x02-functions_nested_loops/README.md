@@ -6,3 +6,4 @@
 5- Print the sign of a character</br>
 6- Computes the absolute value of an integer</br>
 7- Print the last digit of a number</br>
+8- Print every minute of the day of Jack Bauer</br>
