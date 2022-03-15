@@ -18,7 +18,7 @@ if (n == 0)
 printf("%d", n);
 }
 
-if (n >= 0 && n < 15)
+if (n > 0 && n < 15)
 {
 while (i <= n)
 {
