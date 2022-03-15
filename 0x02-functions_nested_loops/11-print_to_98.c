@@ -20,7 +20,7 @@ printf("%d, ", n);
 }
 else
 {
-printf("%d", n);
+printf("%d\n", n);
 }
 n++;
 }
@@ -35,7 +35,7 @@ printf("%d, ", n);
 }
 else
 {
-printf("%d", n);
+printf("%d\n", n);
 }
 n--;
 }
