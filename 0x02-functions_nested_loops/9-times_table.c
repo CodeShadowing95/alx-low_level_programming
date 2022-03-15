@@ -22,7 +22,7 @@ printf("%2d, ", a * b);
 }
 else
 {
-printf("%d", a * b);
+printf("%2d", a * b);
 }
 b++;
 }
