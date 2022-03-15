@@ -4,3 +4,4 @@
 3- Check for lowercase character</br>
 4- Check for alphabetic character</br>
 5- Print the sign of a character</br>
+6- Computes the absolute value of an integer</br>
