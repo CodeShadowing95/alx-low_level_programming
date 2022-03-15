@@ -10,3 +10,4 @@
 9- Print the 9 times table, starting with 0</br>
 10- Add 2 integers and return the result</br>
 11- Print all natural numbers from n to 98</br>
+12- Print the n times table
