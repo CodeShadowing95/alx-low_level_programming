@@ -12,3 +12,4 @@
 11- Print all natural numbers from n to 98</br>
 12- Print the n times table</br>
 13- Print the sum of all the multiples of 3 or 5</br>
+14- Print the first 50 Fibonacci numbers starting with 1 and 2
