@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 /**
  * main - Entry point
@@ -7,7 +8,7 @@
  */
 int main(void)
 {
-unsigned long n1 = 0, n2 = 1, sum;
+uint64_t n1 = 0, n2 = 1, sum;
 int count = 0;
 
 while (count < 98)
@@ -18,7 +19,9 @@ n2 = sum;
 if (count == 97)
 {
 printf("%ld", sum);
-} else {
+}
+else
+{
 printf("%ld, ", sum);
 }
 count++;
