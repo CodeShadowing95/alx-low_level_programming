@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * multiples_3_5 - Entry point
+ * main - Entry point
  *
- * Return: n times table
+ * Return: Always 0
  */
-void multiples_3_5(void)
+int main(void)
 {
 int i = 0;
 int sum = 0;
@@ -21,5 +21,6 @@ i++;
 
 printf("%d\n", sum);
 
+return (0);
 }
 
