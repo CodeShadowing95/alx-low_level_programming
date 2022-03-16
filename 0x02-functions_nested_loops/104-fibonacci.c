@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-uint64_t n1 = 0, n2 = 1, sum;
+uint8_t n1 = 0, n2 = 1, sum;
 int count = 0;
 
 while (count < 98)
