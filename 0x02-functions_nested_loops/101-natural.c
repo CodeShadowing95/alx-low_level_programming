@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * multiples_5_3 - Entry point
+ * multiples_3_5 - Entry point
  *
  * Return: n times table
  */
-void multiples_5_3(void)
+void multiples_3_5(void)
 {
 int i = 0;
 int sum = 0;

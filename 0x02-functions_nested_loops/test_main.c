@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-multiples_5_3();
+multiples_3_5();
 return (0);
 }
 
