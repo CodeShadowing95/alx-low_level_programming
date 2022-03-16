@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-uint64_t n1 = 0, n2 = 1, sum;
+unsigned long n1 = 0, n2 = 1, sum;
 int count = 0;
 
 while (count < 98)
@@ -18,11 +18,11 @@ n1 = n2;
 n2 = sum;
 if (count == 97)
 {
-printf("%ld", sum);
+printf("%ld", (uint64_t) sum);
 }
 else
 {
-printf("%ld, ", sum);
+printf("%ld, ", (uint64_t) sum);
 }
 count++;
 }
