@@ -15,11 +15,19 @@ while (count <= 50)
 sum = n1 + n2;
 n1 = n2;
 n2 = sum;
+if (count == 50)
+{
+printf("%lld", sum);
+}
+else
+{
 printf("%lld, ", sum);
+}
 count++;
 }
 
-return (0);
+printf("\n");
 
+return (0);
 }
 
