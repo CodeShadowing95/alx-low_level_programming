@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-uintmax_t n1 = 0, n2 = 1, sum;
+uint64_t n1 = 0, n2 = 1, sum;
 int count = 0;
 
 while (count < 98)
@@ -19,11 +19,11 @@ n1 = n2;
 n2 = sum;
 if (count == 97)
 {
-printf("%lu", sum);
+printf("%llu", sum);
 }
 else
 {
-printf("%lu, ", sum);
+printf("%llu, ", sum);
 }
 count++;
 }
