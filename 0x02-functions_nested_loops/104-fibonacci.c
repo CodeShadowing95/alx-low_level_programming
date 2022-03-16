@@ -19,11 +19,13 @@ n1 = n2;
 n2 = sum;
 if (count == 97)
 {
-printf("%u", (uintmax_t) sum);
+sum = (uintmax_t) sum;
+printf("%u", sum);
 }
 else
 {
-printf("%u, ", (uintmax_t) sum);
+sum = (uintmax_t) sum;
+printf("%u, ", sum);
 }
 count++;
 }
