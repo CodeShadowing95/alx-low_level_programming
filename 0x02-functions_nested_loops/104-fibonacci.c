@@ -19,11 +19,11 @@ n1 = n2;
 n2 = sum;
 if (count == 97)
 {
-printf("%llu", sum);
+printf("%lu", sum);
 }
 else
 {
-printf("%llu, ", sum);
+printf("%lu, ", sum);
 }
 count++;
 }
