@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-unsigned long long n1 = 0, n2 = 1, sum;
+unsigned long long int n1 = 0, n2 = 1, sum;
 int count = 0;
 
 while (count <= 50)
