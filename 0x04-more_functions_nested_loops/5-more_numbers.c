@@ -17,6 +17,7 @@ while (j < 15)
 _putchar(j);
 j++;
 }
+_putchar('\n');
 i++;
 }
 _putchar('\n');
