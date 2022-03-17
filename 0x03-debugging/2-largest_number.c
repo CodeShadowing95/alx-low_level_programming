@@ -36,6 +36,5 @@ else if (a > b && b > c)
 largest = a;
 }
 
-/* return (largest); */
-printf("%d is the largest number\n", largest);
+return (largest);
 }
