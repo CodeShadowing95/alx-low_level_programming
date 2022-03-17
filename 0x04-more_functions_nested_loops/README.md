@@ -4,3 +4,4 @@
 3- Print the numbers from 0 to 9</br>
 4- Print the numbers from 0 to 9, except 2 and 4</br>
 5- Print 10 times the numbers from 0 to 14
+6- Draw a straight line
