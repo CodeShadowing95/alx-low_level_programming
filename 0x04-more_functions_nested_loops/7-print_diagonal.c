@@ -32,5 +32,9 @@ putchar('\n');
 i++;
 }
 }
+else if (n == 0)
+{
+putchar('\n');
+}
 }
 
