@@ -30,9 +30,9 @@ j++;
 putchar('\\');
 putchar('\n');
 }
-putchar('\n');
 i++;
 }
+putchar('\n');
 }
 else if (n <= 0)
 {
