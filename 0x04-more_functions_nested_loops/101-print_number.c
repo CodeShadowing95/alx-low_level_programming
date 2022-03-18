@@ -23,5 +23,5 @@ if (j / 10)
 {
 print_number(j / 10);
 }
-putchar((j % 10) + '0');
+return ((j % 10) + '0');
 }
