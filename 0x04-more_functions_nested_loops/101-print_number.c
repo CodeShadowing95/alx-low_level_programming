@@ -6,18 +6,18 @@
  *
  * Return: Integer
  */
-void print_number(int a)
+void print_number(int n)
 {
 unsigned int j;
 
-if (a < 0)
+if (n < 0)
 {
-j = -a;
+j = -n;
 putchar('-');
 }
 else
 {
-j = a;
+j = n;
 }
 if (j / 10)
 {
