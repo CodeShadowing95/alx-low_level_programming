@@ -28,4 +28,6 @@ i++;
 }
 
 printf("%ld\n", max);
+
+return (0);
 }
