@@ -17,7 +17,6 @@ while (i < n)
 if (i == 0)
 {
 putchar('\\');
-putchar('\n');
 }
 else
 {
@@ -28,9 +27,9 @@ putchar(' ');
 j++;
 }
 putchar('\\');
-putchar('\n');
 }
 i++;
+putchar('\n');
 }
 putchar('\n');
 }
