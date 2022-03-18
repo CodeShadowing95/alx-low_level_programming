@@ -6,7 +6,7 @@
  *
  * Return: Integer
  */
-int print_number(int a)
+void print_number(int a)
 {
 unsigned int j;
 
@@ -23,5 +23,5 @@ if (j / 10)
 {
 print_number(j / 10);
 }
-return ((j % 10) + '0');
+_putchar((j % 10) + '0');
 }
