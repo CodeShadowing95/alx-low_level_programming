@@ -7,4 +7,5 @@
 6- Draw a straight line</br>
 7- Draw a diagonal line</br>
 8- Print a square</br>
-9- Fizzbuzz
+9- Fizzbuzz</br>
+10- Triangles</br>
