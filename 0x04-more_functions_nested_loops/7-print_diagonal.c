@@ -28,10 +28,9 @@ j++;
 }
 putchar('\\');
 }
+putchar('\n');
 i++;
-putchar('\n');
 }
-putchar('\n');
 }
 else if (n <= 0)
 {
