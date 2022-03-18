@@ -2,7 +2,7 @@
 
 /**
  * print_number - Entry point
- * @a: parameter
+ * @n: parameter
  *
  * Return: Integer
  */
@@ -13,7 +13,7 @@ unsigned int j;
 if (n < 0)
 {
 j = -n;
-putchar('-');
+_putchar('-');
 }
 else
 {
