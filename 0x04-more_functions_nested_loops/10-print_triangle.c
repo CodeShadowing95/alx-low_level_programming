@@ -25,7 +25,7 @@ j++;
 j = 1;
 while (j <= i)
 {
-putchar('#');
+putchar(35);
 j++;
 }
 putchar('\n');
@@ -36,5 +36,4 @@ else if (size <= 0)
 {
 putchar('\n');
 }
-putchar('\n');
 }
