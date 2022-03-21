@@ -3,4 +3,8 @@
 2- Lenght of a string</br>
 3- Print a string</br>
 4- Print a string, in reverse</br>
+5- Function that reverses a string</br>
+6- Print every other character of a string, starting with the first character</br>
+
+8- Print n elements of an array of integers</br>
 
