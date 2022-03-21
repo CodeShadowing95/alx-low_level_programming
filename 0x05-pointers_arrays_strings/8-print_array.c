@@ -25,11 +25,6 @@ printf("%d, ", a[i]);
 }
 i++;
 }
-printf("\n");
 }
-else
-{
 printf("\n");
-printf("\n");
-}
 }
