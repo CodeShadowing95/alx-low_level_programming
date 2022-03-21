@@ -27,4 +27,9 @@ i++;
 }
 printf("\n");
 }
+else
+{
+printf("\n");
+printf("\n");
+}
 }
