@@ -2,4 +2,5 @@
 1- Function that swaps the values of two integers</br>
 2- Lenght of a string</br>
 3- Print a string</br>
+4- Print a string, in reverse</br>
 
