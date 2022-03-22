@@ -5,7 +5,7 @@
 4- Print a string, in reverse</br>
 5- Function that reverses a string</br>
 6- Print every other character of a string, starting with the first character</br>
-
+7- Print half of a string</br>
 8- Print n elements of an array of integers</br>
 9- Copy the string pointed to by src to the buffer pointed to by dest</br>
 
