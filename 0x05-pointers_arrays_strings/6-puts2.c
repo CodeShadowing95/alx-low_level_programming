@@ -10,17 +10,14 @@
 void puts2(char *str)
 {
 int i = 0;
-int len = strlen(str);
-char *s[len];
 
-while (i < len)
+while (i < strlen(str))
 {
 if (i % 2 == 0)
 {
-s[i] = str[i];
+putchar(str[i]);
+}
 i++;
 }
-}
-puts(s);
-puts("\n");
+putchar('\n');
 }
