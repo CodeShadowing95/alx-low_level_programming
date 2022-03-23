@@ -13,9 +13,9 @@
  */
 void rev_string(char *s)
 {
-int i = 0, j = 0;
+long i = 0, j = 0;
 char temp;
-char str[10];
+char str[10000];
 strcpy(str, s);
 
 
