@@ -8,4 +8,5 @@
 7- Print half of a string</br>
 8- Print n elements of an array of integers</br>
 9- Copy the string pointed to by src to the buffer pointed to by dest</br>
+10 - COnvert a string into an integer</br>
 
