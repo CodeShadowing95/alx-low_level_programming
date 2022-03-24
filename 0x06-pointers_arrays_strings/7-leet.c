@@ -13,28 +13,22 @@
 char *leet(char *str)
 {
 int i = 0;
+int j;
+char l_char[] = {'a', 'e', 'o', 'l', 't'};
+char n[] = {'4', '3', '0', '1', '7'};
 
 while (str[i])
 {
-if (str[i] == 'A' || str[i] == 'a')
+j = 0;
+while (l_char[j])
 {
-str[i] = '4';
+if (l_char[j] == tolower(str[i]))
+{
+str[i] = n[j];
+break;
 }
-else if (str[i] == 'E' || str[i] == 'e')
-{
-str[i] = '3';
-}
-else if (str[i] == 'O' || str[i] == 'o')
-{
-str[i] = '0';
-}
-else if (str[i] == 'T' || str[i] == 't')
-{
-str[i] = '7';
-}
-else if (str[i] == 'L' || str[i] == 'l')
-{
-str[i] = '1';
+
+j++;
 }
 
 i++;
