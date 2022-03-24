@@ -5,4 +5,5 @@
 4- Reverse the content of an array</br>
 5- Change all lowercase letters of a string to uppercase</br>
 6- Capitalize all words of a string</br>
+7- Encode a string into 1337</br>
 
