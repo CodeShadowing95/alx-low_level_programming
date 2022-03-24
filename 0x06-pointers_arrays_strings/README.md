@@ -6,6 +6,6 @@
 5- Change all lowercase letters of a string to uppercase</br>
 6- Capitalize all words of a string</br>
 7- Encode a string into 1337</br>
-
+8- Encode a string using rot13</br>
 9- Function that prints an integer</br>
 
