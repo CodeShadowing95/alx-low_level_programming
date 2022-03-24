@@ -16,23 +16,23 @@ int i = 0;
 
 while (str[i])
 {
-if (tolower(str[i]) == 'a')
+if (str[i] == 'A' || str[i] == 'a')
 {
 str[i] = '4';
 }
-else if (tolower(str[i]) == 'e')
+else if (str[i] == 'E' || str[i] == 'e')
 {
 str[i] = '3';
 }
-else if (tolower(str[i]) == 'o')
+else if (str[i] == 'O' || str[i] == 'o')
 {
 str[i] = '0';
 }
-else if (tolower(str[i]) == 't')
+else if (str[i] == 'T' || str[i] == 't')
 {
 str[i] = '7';
 }
-else if (tolower(str[i]) == 'l')
+else if (str[i] == 'L' || str[i] == 'l')
 {
 str[i] = '1';
 }
