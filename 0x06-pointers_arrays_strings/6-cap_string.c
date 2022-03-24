@@ -20,10 +20,10 @@ return (NULL);
 
 while (str[i])
 {
-if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == ','
-|| str[i] == ';' || str[i] == '.' || str[i] == '!' || str[i] == '?'
-|| str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{'
-|| str[i] == '}')
+if (str[i] == '64' || str[i] == '9' || str[i] == '10' || str[i] == '44'
+|| str[i] == '59' || str[i] == '46' || str[i] == '33' || str[i] == '63'
+|| str[i] == '34' || str[i] == '40' || str[i] == '41' || str[i] == '123'
+|| str[i] == '125')
 {
 str[i + 1] = toupper(str[i + 1]);
 }
