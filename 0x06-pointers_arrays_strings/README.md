@@ -7,3 +7,5 @@
 6- Capitalize all words of a string</br>
 7- Encode a string into 1337</br>
 
+9- Function that prints an integer</br>
+
