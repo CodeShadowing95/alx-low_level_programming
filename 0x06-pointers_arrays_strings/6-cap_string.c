@@ -12,9 +12,13 @@
 char *cap_string(char *str)
 {
 int i = 0;
-int len = strlen(str);
 
-while (i < len)
+if (str == NULL)
+{
+return (NULL);
+}
+
+while (str[i])
 {
 if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == ','
 || str[i] == ';' || str[i] == '.' || str[i] == '!' || str[i] == '?'
