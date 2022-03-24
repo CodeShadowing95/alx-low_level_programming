@@ -3,4 +3,5 @@
 2- Copy a string</br>
 3- Compare 2 strings</br>
 4- Reverse the content of an array</br>
+5- Change all lowercase letters of a string to uppercase</br>
 
