@@ -8,4 +8,5 @@
 7- Encode a string into 1337</br>
 8- Encode a string using rot13</br>
 9- Function that prints an integer</br>
+10- Print a[2] = 98</br>
 
