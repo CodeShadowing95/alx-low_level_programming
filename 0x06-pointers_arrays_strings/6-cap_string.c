@@ -1,35 +1,33 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
 #include "main.h"
 
 /**
- * cap_string - Capitalize all words of a string
- * @str: the string
+ * cap_string - capitalizes every word of the string
+ * @s: string to be capitalized
  *
- * Return: All the words of the string capitalized
+ * Return: the string capitalized
  */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-int i = 0;
+int k, l;
 
-if (str == NULL)
+char sep[13] = {' ', '\t', '\n', ',', ';', '.',
+		'!', '?', '"', '(', ')', '{', '}'};
+
+for (k = 0; s[k] != '\0'; k++)
 {
-return (NULL);
+if (k == 0 && s[k] >= 'a' && s[k] <= 'z')
+s[k] -= 32;
+
+for (l = 0; l < 13; l++)
+{
+if (s[k] == sep[l])
+{
+if (s[k + 1] >= 'a' && s[k + 1] <= 'z')
+{
+s[k + 1] -= 32;
 }
-
-while (str[i])
-{
-if (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' || str[i] == ','
-|| str[i] == ';' || str[i] == '.' || str[i] == '!' || str[i] == '?'
-|| str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{'
-|| str[i] == '}')
-{
-str[i + 1] = toupper(str[i + 1]);
 }
-
-i++;
 }
-
-return (str);
+}
+return (s);
 }
