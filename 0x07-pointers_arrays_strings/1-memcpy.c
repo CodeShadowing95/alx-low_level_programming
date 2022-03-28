@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * memcpy - Copy n bytes from memory area src to memory area dest
+ * _memcpy - Copy n bytes from memory area src to memory area dest
  *
  * @dest: memory area destination
  * @src: memory area source
@@ -11,5 +11,5 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (memcpy(dest, src, n));
+	return (memcpy(dest, src, n * sizeof(*src)));
 }
