@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * _memcpy - Copy n bytes from memory area src to memory area dest

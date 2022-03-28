@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * _memset - Fill memory with a constant byte
