@@ -8,4 +8,7 @@ area destination</br>
 	*strchr() : search for the first occurrence of the character c in
 the string pointed to by the argument str</br>
 3- Get the length of a prefix substring</br>
+	*strspn() : returns the number of characters in the initial segment of str1 which consist only of chars from str2</br>
+4- Search a string for any of a set of bytes</br>
+	*strpbrk() : locates the first occurrence in the string s of any of the bytes in the string accept</br>
 
