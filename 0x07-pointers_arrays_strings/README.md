@@ -7,4 +7,5 @@ area destination</br>
 2- Function that locates a character in a string</br>
 	*strchr() : search for the first occurrence of the character c in
 the string pointed to by the argument str</br>
+3- Get the length of a prefix substring</br>
 
