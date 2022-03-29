@@ -18,3 +18,4 @@ he bytes in the string accept</br></br>
 string. Get the rest of the main string from this 1st occurrence.</br></br>
 6- Chessboard</br>
 7 - Sum of the 2 diagonals of a square matrix of integers</br>
+8 - Set the value of a pointer to a char</br>
