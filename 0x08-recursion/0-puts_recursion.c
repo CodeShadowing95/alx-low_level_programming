@@ -9,12 +9,12 @@
  */
 void _puts_recursion(char *s)
 {
-	/** while there's a character in the string **/
 	if (*s)
 	{
-		/** print the character **/
 		puts(s);
-		/** Recursion to the string, get the next character**/
 		_puts_recursion(s - 1);
 	}
+
+	if (s == NULL)
+		puts("\n");
 }
