@@ -17,4 +17,8 @@ void _puts_recursion(char *s)
 		/** print the character **/
 		puts(s);
 	}
+	else
+	{
+		return;
+	}
 }
