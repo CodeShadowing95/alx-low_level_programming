@@ -11,10 +11,7 @@ void _puts_recursion(char *s)
 {
 	if (*s)
 	{
-		puts(s);
 		_puts_recursion(s - 1);
 	}
-
-	if (s == NULL)
-		puts("\n");
+	puts(s);
 }
