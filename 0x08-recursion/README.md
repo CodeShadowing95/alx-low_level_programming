@@ -5,3 +5,4 @@ Recursion mode (without any loops)
 2- Rec. Length of a string</br>
 3- Rec. Factorial of a number</br>
 4- Rec. x power of y</br>
+5- Rec. Square root of a number</br>
