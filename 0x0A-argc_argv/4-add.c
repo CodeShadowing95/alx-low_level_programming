@@ -17,11 +17,12 @@ int main(int argc, char *argv[])
 	int sum = 0;
 	int nbr;
 
-	if (argc == 1)
+	if (argc < 3)
 	{
-		sum = 0;
+		printf("%d\n", 0);
+		return (0);
 	}
-	else if (argc > 1)
+	else
 	{
 		i = 1;
 		while (i < argc)
@@ -42,5 +43,5 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", sum);
 
-	return (0);
+	return (sum);
 }
