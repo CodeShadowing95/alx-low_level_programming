@@ -13,32 +13,29 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0;
-	int sum = 0;
-	int nbr;
+	unsigned int i, sum = 0, nbr;
 
 	if (argc < 3)
 	{
 		printf("%d\n", 0);
 		return (0);
 	}
-	else
+
+	while (argc-- && argc > 0)
 	{
-		i = 1;
-		while (i < argc)
+		i = 0;
+
+		while (argv[argc][i] != '\0')
 		{
-			nbr = atoi(argv[i]);
-			if (nbr)
-			{
-				sum += nbr;
-			}
-			else
+			if (!(isdigit(argv[argc][i])))
 			{
 				printf("Error\n");
 				return (1);
 			}
 			i++;
 		}
+		nbr = atoi(argv[argc]);
+		sum += nbr;
 	}
 
 	printf("%d\n", sum);
