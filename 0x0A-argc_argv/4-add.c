@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 	{
-		printf("%d\n", 0);
+		sum = 0;
 	}
 	else if (argc > 1)
 	{
@@ -38,29 +38,9 @@ int main(int argc, char *argv[])
 			}
 			i++;
 		}
-		printf("%d\n", sum);
 	}
+
+	printf("%d\n", sum);
 
 	return (0);
-}
-
-/**
- * isNumber - Check if a string is a number or not
- *
- * @number: the string to check
- * Return: 1 if number, 0 otherwise
- */
-int isNumber(char *number)
-{
-	int i = 0;
-
-	while (number[i] != '\0')
-	{
-		if (!isdigit(number[i]))
-		{
-			return (0);
-		}
-		i++;
-	}
-	return (1);
 }
