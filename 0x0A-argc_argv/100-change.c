@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 #include "main.h"
 
 /**
@@ -11,8 +13,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int change = 0, nbr;
+	int change, nbr;
 
+	change = 0;
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -30,22 +33,22 @@ int main(int argc, char *argv[])
 	if (nbr % 25 >= 0)
 	{
 		change += nbr / 25;
-		nbr %= 25;
+		nbr = nbr % 25;
 	}
 	if (nbr % 10 >= 0)
 	{
 		change += nbr / 10;
-		nbr %= 10;
+		nbr = nbr % 10;
 	}
 	if (nbr % 5 >= 0)
 	{
 		change += nbr / 5;
-		nbr %= 5;
+		nbr = nbr % 5;
 	}
 	if (nbr % 2 >= 0)
 	{
 		change += nbr / 2;
-		nbr %= 2;
+		nbr = nbr % 2;
 	}
 	if (nbr % 1 >= 0)
 	{
