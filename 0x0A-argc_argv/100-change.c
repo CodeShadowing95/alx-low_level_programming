@@ -13,9 +13,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int change, nbr;
+	int coin[] = {25, 10, 5, 2, 1}, change = 0, nbr, j = 0;
 
-	change = 0;
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -30,30 +29,18 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	if (nbr % 25 >= 0)
+	while (j < 5)
 	{
-		change += nbr / 25;
-		nbr = nbr % 25;
-	}
-	if (nbr % 10 >= 0)
-	{
-		change += nbr / 10;
-		nbr = nbr % 10;
-	}
-	if (nbr % 5 >= 0)
-	{
-		change += nbr / 5;
-		nbr = nbr % 5;
-	}
-	if (nbr % 2 >= 0)
-	{
-		change += nbr / 2;
-		nbr = nbr % 2;
-	}
-	if (nbr % 1 >= 0)
-	{
-		change += nbr / 1;
+		while (nbr >= coin[j])
+		{
+			change++;
+			nbr -= coin[j];
+		}
+		if (nbr == 0)
+			break;
+		j++;
 	}
 
 	printf("%d\n", change);
+	return (0);
 }
