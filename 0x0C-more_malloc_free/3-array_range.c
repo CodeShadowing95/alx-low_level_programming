@@ -11,13 +11,13 @@
 int *array_range(int min, int max)
 {
 	int *tab;
-	unsigned int i = 0;
+	int i;
 
 	if (min > max)
 		return (NULL);
 
 	tab = malloc((max - min + 1) * sizeof(int));
-	if (tab == NULL)
+	if (tab == 0)
 		return (NULL);
 
 	for (i = 0; min + i <= max; i++)
