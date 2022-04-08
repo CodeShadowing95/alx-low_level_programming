@@ -4,3 +4,4 @@
 3- Return a pointer to a 2-dimensional array of integers</br>
 4- Free 2 dimensional grid created by alloc_grid function</br>
 5- Concatenate all the arguments of a program</br>
+6- Split a string into words
