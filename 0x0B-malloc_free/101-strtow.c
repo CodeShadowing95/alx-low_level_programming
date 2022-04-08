@@ -39,17 +39,8 @@ char **strtow(char *str)
 	char **matrix, *tmp;
 	int _strlen = 0, i, k, words, c = 0, start, end;
 
-	if (str == NULL || str == "")
-		return (NULL);
-	
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		if (s[i] == ' ')
-		{
-			_strlen++;
-		}
-	}
-	_strlen++;
+	while (*(str + _strlen))
+		_strlen++;
 
 	words = wordsCounter(str);
 	if (words == 0)
