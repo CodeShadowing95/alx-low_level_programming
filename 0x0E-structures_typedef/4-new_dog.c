@@ -11,18 +11,18 @@
 char *_strcpy(char *str)
 {
 	char *s;
-	unsigned int count = 0, i;
+	unsigned int i = 0;
 
 	if (str == NULL)
 		return (NULL);
-	while (*str)
-		count++;
-	count++;
+	for (i = 0; str[i] != 0; i++)
+		;
+	i += 1;
 
-	s = (char *)malloc(count * sizeof(char));
+	s = malloc(i * sizeof(char));
 	if (s == NULL)
 		return (NULL);
-	for (i = 0; i < count; i++)
+	for (i = 0; str[i] != 0; i++)
 		s[i] = str[i];
 	s[i] = '\0';
 
