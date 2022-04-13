@@ -11,7 +11,7 @@
 char *_strcpy(char *str)
 {
 	char *s;
-	unsigned int count = 0;
+	unsigned int count = 0, i;
 
 	if (str == NULL)
 		return (NULL);
@@ -22,7 +22,7 @@ char *_strcpy(char *str)
 	s = (char *)malloc(count * sizeof(char));
 	if (s == NULL)
 		return (NULL);
-	for (int i = 0; i < count, i++)
+	for (i = 0; i < count; i++)
 		s[i] = str[i];
 	s[i] = '\0';
 
