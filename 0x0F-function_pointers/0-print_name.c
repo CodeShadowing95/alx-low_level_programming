@@ -11,13 +11,17 @@ void printStr(char *str)
 {
 	unsigned int i;
 
-	for (i = 0; str[i] != 0; i++)
-		;
-	i += 1;
+	if (str != NULL)
+	{
 
-	for (int j = 0; str[j] != 0; j++)
-		_putchar(str[j]);
-	_putchar('\n');
+		for (i = 0; str[i] != 0; i++)
+			;
+		i += 1;
+
+		for (int j = 0; str[j] != 0; j++)
+			_putchar(str[j]);
+		_putchar('\n');
+	}
 }
 
 /**
@@ -29,5 +33,5 @@ void printStr(char *str)
  */
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);
+	(*f)(name);
 }
