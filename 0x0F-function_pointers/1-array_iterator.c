@@ -6,7 +6,7 @@
  *
  * @array: array of integers
  * @size: size of the array
- * @action: function given as a parameter
+ * @action: pointer to the function we need to use
  * Return: void
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
