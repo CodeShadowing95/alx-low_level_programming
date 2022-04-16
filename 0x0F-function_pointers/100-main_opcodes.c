@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "function_pointers.h"
 
 /**
@@ -7,7 +9,7 @@
  * @argv: list of arguments
  * Return: 0
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
