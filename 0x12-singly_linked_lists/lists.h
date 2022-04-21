@@ -28,4 +28,6 @@ list_t *add_node(list_t **, const char *);
 
 list_t *add_node_end(list_t **, const char *);
 
+void free_list(list_t *);
+
 #endif
