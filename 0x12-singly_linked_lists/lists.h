@@ -22,4 +22,8 @@ size_t print_list(const list_t *);
 
 size_t list_len(const list_t *);
 
+int length(const char *);
+
+list_t *add_node(list_t **, const char *);
+
 #endif
