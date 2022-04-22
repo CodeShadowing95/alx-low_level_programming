@@ -8,5 +8,5 @@
 7- Print half of a string</br>
 8- Print n elements of an array of integers</br>
 9- Copy the string pointed to by src to the buffer pointed to by dest</br>
-10 - COnvert a string into an integer</br>
-
+10- Convert a string into an integer</br>
+11- Generate random valid passwords for the program 101-crackme
