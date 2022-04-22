@@ -10,6 +10,7 @@
 int main(void)
 {
 	srand((unsigned int) (time(NULL)));
+
 	int i;
 	char pass[12];
 
