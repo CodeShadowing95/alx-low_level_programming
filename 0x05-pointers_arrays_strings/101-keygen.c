@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-	srand((unsigned int) (time(NULL)));
-
 	int i;
 	char pass[12];
+
+	srand((unsigned int) (time(NULL)));
 
 	for (i = 0; i < 12; i++)
 		pass[i] = 33 + rand() % 94;
