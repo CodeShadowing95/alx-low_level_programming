@@ -21,4 +21,6 @@ size_t print_listint(const listint_t *);
 
 size_t listint_len(const listint_t *);
 
+listint_t *add_nodeint(listint_t **, const int);
+
 #endif
