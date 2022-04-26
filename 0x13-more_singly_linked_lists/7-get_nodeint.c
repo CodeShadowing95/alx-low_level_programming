@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
 
@@ -10,24 +9,18 @@
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	listint_t *currentNode;
-	int count = 0;
+	unsigned int count = 0;
 
 	if (head == NULL)
 		return (NULL);
 
-	currentNode = head;
-	while (currentNode != NULL)
+	while (head != NULL)
 	{
 		if (count == index)
-			return (currentNode);
+			return (head);
 		count++;
-		currentNode = currentNode->next;
+		head = head->next;
 	}
 
-	/**
-	 * If we get to this line, the caller was asking
-	 * for a non-existent element so we assert fail
-	 */
 	return (NULL);
 }
