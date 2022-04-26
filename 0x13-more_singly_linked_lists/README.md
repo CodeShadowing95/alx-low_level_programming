@@ -7,3 +7,4 @@ Add a new node at the end of a list listint_t list</br>
 Free a listint_t list</br>
 Free a listint_t list 2</br>
 Delete the head node of a listint_t list and get the head node data</br>
+Get the nth node of a listint_t list</br>
