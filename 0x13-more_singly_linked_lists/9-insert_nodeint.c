@@ -3,6 +3,23 @@
 #include "lists.h"
 
 /**
+ * getSize - get size of the linked list
+ * @head: original linked list
+ * Return: length of the list
+ */
+int getSize(listint_t *head)
+{
+	int count = 0;
+
+	while (head)
+	{
+		head = head->next;
+		count++;
+	}
+	return (count);
+}
+
+/**
  * insert_nodeint_at_index - function that inserts a new node
  * at a given position
  *
@@ -15,6 +32,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *newNode;
 	listint_t *currentNode = *head;
+	int count = getSize(*head);
 
 	if (*head == NULL)
 		return (NULL);
@@ -23,7 +41,9 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (newNode == NULL)
 		return (NULL);
 	newNode->n = n;
-	newNode->next = NULL;
+
+	if (idx > count)
+		return (NULL);
 
 	while (--idx)
 	{
