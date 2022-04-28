@@ -28,7 +28,7 @@ int getSize(listint_t *head)
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *temp = *head, *delNode;
-	int i, count;
+	unsigned int i, count;
 
 	if (*head == NULL)
 		return (-1);
