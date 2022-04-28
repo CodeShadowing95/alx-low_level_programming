@@ -11,3 +11,4 @@ Get the nth node of a listint_t list</br>
 Sum of all the data (n) of a listint_t list</br>
 Insert a new node at a given position</br>
 Delete node at index index of a listint_t list</br>
+Reverse a listint_t list</br>
