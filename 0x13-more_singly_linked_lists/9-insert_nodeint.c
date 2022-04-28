@@ -32,7 +32,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *newNode;
 	listint_t *currentNode = *head;
-	int count = getSize(*head);
+	unsigned int count = getSize(*head);
 
 	if (*head == NULL)
 		return (NULL);
