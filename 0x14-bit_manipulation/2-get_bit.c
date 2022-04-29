@@ -8,12 +8,25 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int bit;
+	unsigned int i = 0;
 
-	if (n >= 1)
+	while (n >= 1)
 	{
-		bit = (n >> index) & 1;
-		return (bit);
+		if (i == index)
+		{
+			if (n % 2 == 0)
+				return (0);
+			else
+				return (1);
+		}
+
+		n = n / 2;
+		i++;
+	}
+
+	if (index > i)
+	{
+		return (0);
 	}
 
 	return (-1);
