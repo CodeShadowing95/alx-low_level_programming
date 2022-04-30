@@ -14,6 +14,11 @@ int get_bit(unsigned long int n, unsigned int index)
 	{
 		if (i == index)
 		{
+			/*
+			 * Can do the same work
+			 * bitStatus = (num >> n) & 1;
+			 * get the specific at a given index
+			 */
 			if (n % 2 == 0)
 				return (0);
 			else
