@@ -1,10 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
-
-#include <unistd.h>
-
-#include <fcntl.h>
 
 /**
  * read_textfile - read a text file and prints it to stdout
@@ -44,5 +38,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(fd);
 	free(buf);
 
-	return (letters);
+	return (wd);
 }
