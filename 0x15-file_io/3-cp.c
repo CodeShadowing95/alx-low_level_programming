@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	}
 
 	cpFile(argv[1], argv[2]);
-	return (0);
+	exit(0);
 }
 
 /**
@@ -69,13 +69,13 @@ void cpFile(const char *file_from, const char *file_to)
 
 	if (close(src) == -1)
 	{
-		dprintf(STDERR_FILENO, "Can't close fd %d\n", src);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", src);
 		exit(100);
 	}
 
 	if (close(dest) == -1)
 	{
-		dprintf(STDERR_FILENO, "Can't close fd %d\n", dest);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", dest);
 		exit(100);
 	}
 }
