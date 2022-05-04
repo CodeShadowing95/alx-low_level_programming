@@ -40,7 +40,7 @@ void cpFile(const char *file_from, const char *file_to)
 	char buf[1024];
 
 	src = open(file_from, O_RDONLY);
-	if (src == -1)
+	if (file_from == NULL || src == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98);
