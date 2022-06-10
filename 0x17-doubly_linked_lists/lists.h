@@ -29,4 +29,6 @@ size_t print_dlistint(const dlistint_t *);
 
 size_t dlistint_len(const dlistint_t *);
 
+dlistint_t *add_dnodeint(dlistint_t **, const int);
+
 #endif
