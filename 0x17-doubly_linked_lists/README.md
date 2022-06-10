@@ -13,3 +13,7 @@ struct node {
 	struct node *next;
 }
 </code>
+
+<h1>Usage of Doubly linked lists</h1>
+0- print all the elements</br>
+1- get the number of elements in a list</br>
