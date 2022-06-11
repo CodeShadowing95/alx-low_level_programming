@@ -19,3 +19,4 @@ struct node {
 1- get the number of elements in a list</br>
 2- add a new node at the beginning of a list</br>
 3- add a new node at the end of a list</br>
+4- free a list</br>
