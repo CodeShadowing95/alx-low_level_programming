@@ -21,3 +21,4 @@ struct node {
 3- add a new node at the end of a list</br>
 4- free a list</br>
 5- get the nth node of a list</br>
+6- get the sum of all data (n) of a list</br>
