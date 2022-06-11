@@ -20,3 +20,4 @@ struct node {
 2- add a new node at the beginning of a list</br>
 3- add a new node at the end of a list</br>
 4- free a list</br>
+5- get the nth node of a list</br>
