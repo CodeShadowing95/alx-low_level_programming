@@ -22,3 +22,5 @@ struct node {
 4- free a list</br>
 5- get the nth node of a list</br>
 6- get the sum of all data (n) of a list</br>
+7- insert a new node at a given position</br>
+8- delete a node at given index of a list</br>
