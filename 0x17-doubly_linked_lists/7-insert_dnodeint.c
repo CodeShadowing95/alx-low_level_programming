@@ -29,7 +29,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	while (--idx)
 	{
 		temp = temp->next;
-		if (temp == NULL && idx >0)
+		if (temp == NULL && idx > 0)
 			return (NULL);
 	}
 
@@ -39,25 +39,3 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	return (new_node);
 }
-
-/**
- * list_len - get the length of a dl-list
- * @head: current or first node
- *
- * Return: the number of nodes in a list
- */
-size_t size_list(dlistint_t **head)
-{
-	int size = 0;
-
-	if ((*head) == NULL)
-		return (0);
-	while ((*head) != NULL)
-	{
-		size++;
-		(*head) = (*head)->next;
-	}
-
-	return (size);
-}
-
